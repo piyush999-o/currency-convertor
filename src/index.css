@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@600&display=swap");
+
+:root {
+  --primary-bgcolor: rgb(158, 100, 235);
+  --border: 1px solid rgb(38, 0, 128);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.container {
+  color: rgb(104, 17, 204);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: rgb(115, 39, 202);
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency {
+  height: 30px;
+  width: 87%;
+  background-color: var(--primary-bgcolor);
+  border: var(--border);
+  border-radius: 2px;
+}
+
+input {
+  height: 30px;
+  width: 80%;
+  margin-top: 15px;
+  padding: 0 10px;
+  border: var(--border);
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgb(148, 98, 214), -1px -1px 3px rgb(148, 98, 214);
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 450px;
+  height: 40px;
+  color: rgb(76, 12, 150);
+  font-size: 20px;
+  background-color: var(--primary-bgcolor);
+  text-shadow: 1px 1px 5px #fff, -1px -1px 5px #fff;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
